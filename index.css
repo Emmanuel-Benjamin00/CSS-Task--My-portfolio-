@@ -1,0 +1,629 @@
+
+@media (min-width: 1000px) and (max-width: 1600px) {
+
+header{
+    font-family: poppins-semibold, poppins, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.square{
+    float:left;
+    height: 1em;
+    width:1em;
+    background-color: #116dff;
+    margin-right: 1em;
+    position: relative;
+    top: 0.2em;    
+}
+
+.nav{
+    list-style-type: none;;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;  
+    top:0;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.nav .left{
+    float: left;
+ }
+
+.nav  .right{
+   float: right;
+}
+
+.nav>li a:not(.active){
+    display: block;
+    padding: 0.625em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.nav .active {
+    display: block;
+    padding: 0.625em;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.nav .right a:hover{
+    color: #116dff;
+}
+
+.active{
+    color: #116dff;
+  }
+
+.name{
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: poppins-semibold, poppins, sans-serif;
+}
+
+.Designation{
+    font-size: 1rem;
+}
+
+
+.namepos{
+    position: relative;
+    left: 17%;
+    top: 3em ;
+}
+
+.despos{
+    position: relative;
+    left: 25%;
+    top: 3em ;
+}
+
+hr{
+    border: 3px solid #116dff;
+    border-radius: 5px;
+    width: 3em;
+    position: relative;
+    top: 3.5em ;
+}
+
+
+.first-half-div{
+    position: relative;
+    height: 40em;
+    width: 40%;
+    background-color: #e6dace;
+    margin-top: 6.5em ;
+    float: left;
+    }
+
+.top{
+    position: relative;
+    top: 7em;
+    left: 10em;
+    /* box-shadow: -2px 2px#116dff; */
+    width: 75%;
+}
+
+.top-div{
+    height: 23.125em;
+    background-color: #f4ece6;
+     
+}
+
+.top-div-below{
+    height: 3em;
+    background-color: rgb(255, 255, 255);
+}
+
+.top-div img{
+    position: relative;
+    top: 2.5em;
+    left: 50%; 
+    transform: translateX(-50%); 
+    height: 10em;
+    border-radius: 50%;
+}
+
+.top-div-below img{
+    height: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.8em;
+}
+
+.logos{
+    margin-left: 2em;
+}
+
+.herotext{
+    display: inline;
+    position: relative;
+    top: 15em;
+    left: 4em;
+    font-family: poppins-semibold, poppins, sans-serif;
+    
+}
+
+h1{
+    font-size: 4em;
+    display: inline;
+
+}
+
+.whoiam{
+    font-size: 1.5em;
+    display: inline;
+}
+
+.content{
+    width: 50rem;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    clear: both;
+    margin-bottom: 2em;
+}
+
+table{
+  float: right;
+  font-size: .8em;
+  font-family:poppins-semibold, poppins, sans-serif; ;
+}
+
+tr,td{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.logofooter img{
+    height: 1.5rem;
+}
+
+address a{
+    text-decoration: none;
+    color: black;  
+}
+
+footer>p{
+    position: relative;
+    display: inline;
+    top: 2em;
+    left: 2em;
+}
+
+}
+
+
+
+
+@media (min-width: 800px) and (max-width: 1000px) {
+
+    header{
+        font-family: poppins-semibold, poppins, sans-serif;
+        margin: 0;
+        padding:0;
+    }
+    
+    .square{
+        float:left;
+        height: 1em;
+        width:1em;
+        background-color: #116dff;
+        margin-right: 1em;
+        position: relative;
+        top: 0.2em;    
+    }
+    
+    .nav{
+        list-style-type: none;;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        overflow: hidden;
+        position: fixed;  
+        top:0;
+        width: 100%;
+        z-index: 2;
+        
+    }
+    
+    .nav .left{
+        float: left;
+     }
+    
+    .nav  .right{
+       float: right;
+    }
+    
+    .nav>li a:not(.active){
+        display: block;
+        padding: 0.625em;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    .nav .active {
+        display: block;
+        padding: 0.625em;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    .nav .right a:hover{
+        color: #116dff;
+    }
+    
+    .active{
+        color: #116dff;
+      }
+    
+    .name{
+        font-weight: bold;
+        font-size: 1.3rem;
+        font-family: poppins-semibold, poppins, sans-serif;
+    }
+    
+    .Designation{
+        font-size: 1rem;
+    }
+    
+    
+    .namepos{
+        position: relative;
+        left: 17%;
+        top: 3em ;
+        font-size: 1em;
+    }
+    
+    .despos{
+        position: relative;
+        left: 22%;
+        top: 3em ;
+    }
+    
+    hr{
+        border: 3px solid #116dff;
+        border-radius: 5px;
+        width: 3em;
+        position: relative;
+        top: 3.5em ;
+    }
+    
+    
+    .first-half-div{
+        position: relative;
+        height: 40em;
+        width: 40%;
+        background-color: #e6dace;
+        margin-top: 6.5em ;
+        float: left;
+        }
+    
+    .top{
+        position: relative;
+        top: 7em;
+        left: 10em;
+        /* box-shadow: -2px 2px#116dff; */
+        width: 75%;
+    }
+    
+    .top-div{
+        height: 23.125em;
+        background-color: #f4ece6;
+         
+    }
+    
+    .top-div-below{
+        height: 3em;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .top-div img{
+        position: relative;
+        top: 2.5em;
+        left: 50%; 
+        transform: translateX(-50%); 
+        height: 10em;
+        border-radius: 50%;
+    }
+    
+    .top-div-below img{
+        height: 1.5em;
+        padding-left: .7em;
+        padding-right: .7em;
+        padding-top: 0.8em;
+    }
+    
+    .logos{
+        margin-left: 1em;
+    }
+    
+    .herotext{
+        display: inline;
+        position: relative;
+        top: 15em;
+        left: 7em;
+        font-family: poppins-semibold, poppins, sans-serif;
+        
+    }
+    
+    h1{
+        font-size: 4em;
+        display: inline;
+    
+    }
+    
+    .whoiam{
+        font-size: 1.5em;
+        display: inline;
+    }
+    
+    .content{
+        width: 40rem;
+        text-align: justify;
+    }
+    
+    footer{
+        background-color: rgb(255, 255, 255);
+        clear: both;
+        margin-bottom: 2em;
+    }
+    
+    table{
+      float: right;
+      font-size: .8em;
+      font-family:poppins-semibold, poppins, sans-serif; ;
+    }
+    
+    tr,td{
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    .logofooter img{
+        height: 1.5rem;
+    }
+    
+    address a{
+        text-decoration: none;
+        color: black;  
+    }
+    
+    footer>p{
+        position: relative;
+        display: inline;
+        top: 2em;
+        left: 2em;
+    }
+    
+    }
+
+
+
+
+    @media (min-width: 500px) and (max-width: 800px) {
+
+    header{
+        font-family: poppins-semibold, poppins, sans-serif;
+        margin: 0;
+        padding:0;
+    }
+    
+
+
+    .square{
+        float:left;
+        height: 1em;
+        width:1em;
+        background-color: #116dff;
+        margin-right: 1em;
+        position: relative;
+        top: 0.2em;    
+    }
+    
+    .nav{
+        list-style-type: none;;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        overflow: hidden;
+        position: fixed;  
+        top:0;
+        width: 100%;
+        z-index: 2;
+        
+    }
+    
+    .nav .left{
+        float: left;
+     }
+    
+    .nav  .right{
+       display: inline;
+    }
+    
+    .nav>li a:not(.active){
+        padding: 0.625em;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    .nav .active {
+        padding: 0.625em;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    .nav .right a:hover{
+        color: #116dff;
+    }
+    
+    .active{
+        color: #116dff;
+      }
+    
+    .name{
+        font-weight: bold;
+        font-size: 1.3rem;
+        font-family: poppins-semibold, poppins, sans-serif;
+    }
+    
+    .Designation{
+        font-size: 1rem;
+    }
+    
+    
+    .namepos{
+        position: relative;
+        left: 17%;
+        top: 3em ;
+        font-size: 1em;
+    }
+    
+    .despos{
+        position: relative;
+        left: 22%;
+        top: 3em ;
+    }
+    
+    hr{
+        border: 3px solid #116dff;
+        border-radius: 5px;
+        width: 3em;
+        position: relative;
+        top: 3.5em ;
+    }
+    
+    
+    .first-half-div{
+        position: relative;
+        height: 40em;
+        width: 40%;
+        background-color: #e6dace;
+        margin-top: 6.5em ;
+        float: left;
+        }
+    
+    .top{
+        position: relative;
+        top: 7em;
+        left: 1.5em;
+        /* box-shadow: -2px 2px#116dff; */
+        width: 75%;
+    }
+    
+    .top-div{
+        height: 23.125em;
+        background-color: #f4ece6;
+         
+    }
+    
+    .top-div-below{
+        height: 3em;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .top-div img{
+        position: relative;
+        top: 2.5em;
+        left: 50%; 
+        transform: translateX(-50%); 
+        height: 10em;
+        border-radius: 50%;
+    }
+    
+    .top-div-below img{
+        height: 1.5em;
+        padding-left: .2em;
+        padding-right: .2em;
+        padding-top: 0.8em;
+    }
+    
+    .logos{
+        margin-left: 1em;
+    }
+    
+    .herotext{
+        display: inline;
+        position: relative;
+        top: 15em;
+        left: 1.5em;
+        font-family: poppins-semibold, poppins, sans-serif;
+        
+    }
+    
+    h1{
+        font-size: 4em;
+        display: inline;
+    
+    }
+    
+    .whoiam{
+        font-size: 1.3em;
+        display: inline;
+    }
+    
+    .content{
+        width: 30rem;
+        text-align: justify;
+    }
+    
+    footer{
+        background-color: rgb(255, 255, 255);
+        clear: both;
+        margin-bottom: 2em;
+    }
+    
+    table{
+      float: right;
+      font-size: .8em;
+      font-family:poppins-semibold, poppins, sans-serif; ;
+    }
+    
+    tr,td{
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    .logofooter img{
+        height: 1.5rem;
+    }
+    
+    address a{
+        text-decoration: none;
+        color: black;  
+    }
+    
+    footer>p{
+        position: relative;
+        display: inline;
+        top: 7em;
+        left: 2em;
+    }
+    
+    }
