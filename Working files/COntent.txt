@@ -1,0 +1,46 @@
+ <div>
+    <h2>Education</h2>
+    <ul>
+        <li>B.Tech(Electronics & Communication), Crescent University,Chennai,
+            Tamilnadu,India - 05/2022</li>
+        <li>12th Std, CSI Corley Higher Secondary School, Tamilnadu, India - 05/2018</li>
+        <li>SSLC, CSI Corley Higher Secondary School, Tamilnadu, ,India- 05/2016</li>
+    </ul>
+    </div>
+
+    <div>
+    <h2>Work Experience</h2>
+    <p>
+        Organization: TVS Electronics Private Limited, Tumkur, Karnataka.<br/>
+        Designation: NPD Engineer Trainee(June 2022 – July 2023)<br />
+        Total years of Experience: 1 Year<br />
+    </p>
+    </div>
+
+    <div>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Blender 3D, Visual Studio</li>
+        <li>Word, Excel, PowerPoint</li>
+    </ul>
+    </div>
+
+    <div>
+    <h3>Key Strengths</h3>
+    <ul>
+        <li>Hardworking and Result-Oriented</li>
+        <li>Ability to Learn New Skills quickly & efficiently</li>
+        <li>Flexible and adaptable to change new environments.</li>
+        <li> Multitasking</li>
+        <li> Excellent Time Management.</li>
+    </ul>
+    </div>
+  
+  
+<h4><a href="./Contact Details.html">Contact Details</a></h4>

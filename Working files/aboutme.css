@@ -1,0 +1,112 @@
+header{
+    font-family: poppins-semibold, poppins, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: poppins-semibold, poppins, sans-serif;
+}
+
+.Designation{
+    font-size: 1rem;
+}
+
+.square{
+    float:left;
+    height: 1em;
+    width:1em;
+    background-color: #116dff;
+    margin-right: 1em;
+    position: relative;
+    top: 0.2em;    
+}
+
+.nav{
+    list-style-type: none;;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    /* position: fixed;   */
+    top:0;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.nav .left{
+    float: left;
+ }
+
+.nav  .right{
+   float: right;
+}
+
+.nav>li a:not(.active){
+    display: block;
+    padding: 0.625em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.nav .active {
+    display: block;
+    padding: 0.625em;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.nav .right a:hover{
+    color: #116dff;
+}
+
+.active{
+    color: #116dff;
+  }
+  
+footer{
+    background-color: rgb(255, 255, 255);
+    clear: both;
+    margin-bottom: 2em;
+}
+
+table{
+  float: right;
+  font-size: .8em;
+  font-family:poppins-semibold, poppins, sans-serif; ;
+}
+
+tr,td{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.logofooter img{
+    height: 1.5rem;
+}
+
+address a{
+    text-decoration: none;
+    color: black;  
+}
+
+footer>p{
+    position: relative;
+    display: inline;
+    top: 2em;
+    left: 2em;
+}
+
+
+.middle-content{
+    background-color: #e6dace;
+}
