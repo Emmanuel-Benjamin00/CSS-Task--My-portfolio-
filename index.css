@@ -420,7 +420,7 @@ footer>p{
 
 
 
-    @media (min-width: 500px) and (max-width: 800px) {
+    @media (min-width: 200px) and (max-width: 800px) {
 
     header{
         font-family: poppins-semibold, poppins, sans-serif;
